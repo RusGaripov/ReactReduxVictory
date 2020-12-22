@@ -17,10 +17,8 @@ export class Posts extends Component {
    }
 
    onChange = e => {
-       this.setState({
-           search:e.target.value
-       })
-       this.props.onFindNews(this.state.search);
+      
+       this.props.onFindNews(e.target.value);
    }
 
     render() {  

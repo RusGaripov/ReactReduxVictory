@@ -84,9 +84,10 @@ export const deleteNews = (id,history) => async dispatch => {
 
 
 export const onFindNews = (search) => async dispatch=> {
+    let b= search.toLowerCase();
     dispatch({
         type:actions.SEARCH_NEWS,
-        news:testObject.filter(filtered=>filtered.title.includes(search))
+        news:testObject.filter(filtered=>filtered.title.toLowerCase().includes(b))
     })
 }
 
