@@ -1,0 +1,8 @@
+export const  SET_USER="SET_USER"
+export const  LOGOUT_USER="LOGOUT_USER"
+export const GET_NEWS="GET_NEWS"
+export const GET_ONE="GET_ONE"
+export const ADD_NEWS="ADD_NEWS"
+export const APPROVE_ONE="APPROVE_ONE"
+export const DELETE_NEWS="DELETE_NEWS"
+export const SEARCH_NEWS="SEARCH_NEWS"
