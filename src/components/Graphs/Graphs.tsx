@@ -102,7 +102,8 @@ export class Posts extends Component <IPostsProps,IPostsState> {
   
           >
           <VictoryAxis
-              axisLabelComponent={<VictoryLabel dy={20}/>}
+              axisLabelComponent={<VictoryLabel dy={25} />}
+              tickLabelComponent={<VictoryLabel angle={90} verticalAnchor='middle'/>}
               label="Day"
               style={{
                 tickLabels: {
@@ -110,8 +111,9 @@ export class Posts extends Component <IPostsProps,IPostsState> {
               },
               axisLabel: {
                 fontSize: 8,
-                padding: 10
+                padding: 10, 
               },
+              ticks: {padding: 5}
               }}
           />
           <VictoryAxis
@@ -148,7 +150,8 @@ export class Posts extends Component <IPostsProps,IPostsState> {
                width={600}
            >
            <VictoryAxis
-               axisLabelComponent={<VictoryLabel dy={20}/>}
+               axisLabelComponent={<VictoryLabel dy={25} />}
+               tickLabelComponent={<VictoryLabel angle={90} verticalAnchor='middle'/>}
                label="Day"
                style={{
                   tickLabels: {
@@ -158,6 +161,7 @@ export class Posts extends Component <IPostsProps,IPostsState> {
                   fontSize: 8,
                   padding: 10
                },
+               ticks: {padding: 5}
                }}
           />
           <VictoryAxis
@@ -194,7 +198,8 @@ export class Posts extends Component <IPostsProps,IPostsState> {
              width={600} 
           >
           <VictoryAxis
-             axisLabelComponent={<VictoryLabel dy={20}/>}
+             axisLabelComponent={<VictoryLabel dy={25} />}
+             tickLabelComponent={<VictoryLabel angle={90} verticalAnchor='middle'/>}
              label="Day"
              style={{
                 tickLabels: {
@@ -204,6 +209,7 @@ export class Posts extends Component <IPostsProps,IPostsState> {
                  fontSize: 8,
                  padding: 10
              },
+             ticks: {padding: 5}
             }}
           />
           <VictoryAxis
