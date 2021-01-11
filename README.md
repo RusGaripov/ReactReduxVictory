@@ -1,4 +1,4 @@
-# Данные ввода. abc@email.com с паролем 12345 (для админа) и cba@email.com с паролем 54321 (для юзера)
+
 
 
 # Getting Started with Create React App
